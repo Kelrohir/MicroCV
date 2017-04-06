@@ -1,0 +1,30 @@
+{
+  "name": "Skill",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "tag": {
+      "type": "string"
+    },
+    "order": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
