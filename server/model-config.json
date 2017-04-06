@@ -34,5 +34,33 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Member": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "Team": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "Resume": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "Experience": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "Education": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "Skill": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "OtherInfo": {
+    "dataSource": "postgresql",
+    "public": true
   }
 }
