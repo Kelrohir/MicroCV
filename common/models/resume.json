@@ -38,22 +38,22 @@
     "experiences": {
       "type": "hasMany",
       "model": "Experience",
-      "foreignKey": "experience"
+      "foreignKey": ""
     },
     "education": {
       "type": "hasMany",
       "model": "Education",
-      "foreignKey": "education"
+      "foreignKey": ""
     },
     "skills": {
       "type": "hasMany",
       "model": "Skill",
-      "foreignKey": "skill"
+      "foreignKey": ""
     },
     "otherInfos": {
       "type": "hasMany",
       "model": "OtherInfo",
-      "foreignKey": "otherInfo"
+      "foreignKey": ""
     }
   },
   "acls": [],
