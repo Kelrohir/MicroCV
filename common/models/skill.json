@@ -28,7 +28,7 @@
     "resume": {
       "type": "belongsTo",
       "model": "Resume",
-      "foreignKey": "resume"
+      "foreignKey": ""
     }
   },
   "acls": [],
