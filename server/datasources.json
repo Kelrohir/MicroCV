@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgresql": {
+    "host": "193.70.91.223",
+    "port": 5432,
+    "url": "",
+    "database": "microcv",
+    "password": "microcv",
+    "name": "postgresql",
+    "user": "microcv",
+    "connector": "postgresql"
+  }
+}
