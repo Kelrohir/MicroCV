@@ -1,0 +1,34 @@
+{
+  "name": "Experience",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "resume": {
+      "type": "belongsTo",
+      "model": "Resume",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
