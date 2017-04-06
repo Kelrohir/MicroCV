@@ -11,12 +11,12 @@
     "team": {
       "type": "belongsTo",
       "model": "Team",
-      "foreignKey": ""
+      "foreignKey": "team"
     },
     "resume": {
       "type": "hasOne",
       "model": "Resume",
-      "foreignKey": "resume"
+      "foreignKey": ""
     }
   },
   "acls": [],

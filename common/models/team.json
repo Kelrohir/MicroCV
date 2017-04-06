@@ -13,6 +13,11 @@
   },
   "validations": [],
   "relations": {
+    "members": {
+      "type": "hasMany",
+      "model": "Member",
+      "foreignKey": ""
+    },
     "manager": {
       "type": "hasOne",
       "model": "Member",
