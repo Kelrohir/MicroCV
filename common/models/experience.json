@@ -22,7 +22,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "resume": {
+      "type": "belongsTo",
+      "model": "Resume",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

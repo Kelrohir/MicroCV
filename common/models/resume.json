@@ -29,7 +29,33 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "member": {
+      "type": "belongsTo",
+      "model": "Member",
+      "foreignKey": ""
+    },
+    "experiences": {
+      "type": "hasMany",
+      "model": "Experience",
+      "foreignKey": ""
+    },
+    "education": {
+      "type": "hasMany",
+      "model": "Education",
+      "foreignKey": ""
+    },
+    "skills": {
+      "type": "hasMany",
+      "model": "Skill",
+      "foreignKey": ""
+    },
+    "otherInfos": {
+      "type": "hasMany",
+      "model": "OtherInfo",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
