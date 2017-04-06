@@ -33,7 +33,7 @@
     "member": {
       "type": "belongsTo",
       "model": "Member",
-      "foreignKey": "member"
+      "foreignKey": ""
     },
     "experiences": {
       "type": "hasMany",
