@@ -16,7 +16,7 @@
     "manager": {
       "type": "hasOne",
       "model": "Member",
-      "foreignKey": ""
+      "foreignKey": "manager"
     }
   },
   "acls": [],

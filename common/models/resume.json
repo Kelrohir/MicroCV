@@ -33,27 +33,27 @@
     "member": {
       "type": "belongsTo",
       "model": "Member",
-      "foreignKey": ""
+      "foreignKey": "member"
     },
     "experiences": {
       "type": "hasMany",
       "model": "Experience",
-      "foreignKey": ""
+      "foreignKey": "experience"
     },
     "education": {
       "type": "hasMany",
       "model": "Education",
-      "foreignKey": ""
+      "foreignKey": "education"
     },
     "skills": {
       "type": "hasMany",
       "model": "Skill",
-      "foreignKey": ""
+      "foreignKey": "skill"
     },
     "otherInfos": {
       "type": "hasMany",
       "model": "OtherInfo",
-      "foreignKey": ""
+      "foreignKey": "otherInfo"
     }
   },
   "acls": [],
