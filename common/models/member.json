@@ -8,20 +8,20 @@
   "properties": {},
   "validations": [],
   "relations": {
-    "managerOf": {
-      "type": "hasOne",
-      "model": "Member",
-      "foreignKey": "manager"
-    },
     "team": {
       "type": "belongsTo",
       "model": "Team",
-      "foreignKey": "team"
+      "foreignKey": ""
     },
     "resume": {
       "type": "hasOne",
       "model": "Resume",
       "foreignKey": ""
+    },
+    "managerOf": {
+      "type": "hasOne",
+      "model": "Team",
+      "foreignKey": "manager"
     }
   },
   "acls": [],
