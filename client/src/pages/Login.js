@@ -22,7 +22,7 @@ class Login extends Component {
         event.preventDefault();
         axios.post('http://microcv.5unken.me/Members/login', {"email": this.state.login_email, "password": this.state.login_pass}).then(
             success => { localStorage.setItem('token', success.data.id) },
-            fail => { alert("You suck"); }
+            fail => { alert("Vos identifiants sont incorrects"); }
         );
     }
 
