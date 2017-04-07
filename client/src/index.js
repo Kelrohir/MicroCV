@@ -7,6 +7,7 @@ import ErrorNotFound from './pages/ErrorNotFound';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import EditResume from './pages/EditResume';
+import AdminPanel from './pages/AdminPanel';
 
 import './styles/index.css';
 
@@ -17,6 +18,7 @@ ReactDOM.render(
 				<Route exact path="/" component={Login}/>
 				<Route path="/login" component={Login}/>
 				<Route path="/register" component={Register}/>
+				<Route path="/admin-panel" component={AdminPanel}/>
 				<Route path="/edit-resume" component={EditResume}/>
 
 				<Route component={ErrorNotFound}/>
